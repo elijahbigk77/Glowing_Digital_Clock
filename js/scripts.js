@@ -26,7 +26,7 @@ m = ( m < 10 ) ? m = "0" + m : m;
 s = ( s < 10 ) ? s = "0" + s : s;
 
 
-var time = h + ":" + m + ":" + s + " " + session;
+var time = h + ":" + m + ":" + s + " " + session + " (EST)";
 
 $('#clock').html(time); 
 
